@@ -19,6 +19,7 @@ public class UsersController {
     }
 
     @PostMapping
+//    @Transactional
     public List<Users> createUser(@RequestBody UserRequest request) {
         List<Users> users;
         try {
